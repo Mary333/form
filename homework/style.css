@@ -1,0 +1,37 @@
+html, body {
+  margin: 0 auto;
+  background: #FBF8EF;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 16px 0;
+  color: #8F8972;
+  text-align: center;
+}
+
+form table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+form table td {
+  padding: 8px 4px;
+  border: 1px solid black;
+}
+
+form input, form select {
+  width: 100%;
+}
+
+form button {
+  width: 100%;
+  padding: 4px 0;
+  border: 1px solid black;
+  background: #8F8972;
+  color: white;
+}

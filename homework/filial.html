@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Filial Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Новый филиал</h1>
+    <form>
+      <table>
+        <tr>
+          <td><label for="name">Полное название</label></td>
+          <td><input id="name" type="text"/></td>
+        </tr>
+        <tr>
+          <td><label for="abbreviation">Сокращенное название</label></td>
+          <td><input if="abbreviation" type="text"/></td>
+        </tr>
+        <tr>
+          <td><label for="contacts">Контактные лица</label></td>
+          <td><input id="contacts" type="text"/></td>
+        </tr>
+        <tr>
+          <td><label for="phones">Контактные телефоны</label></td>
+          <td><input id="phones" type="text"/></td>
+        </tr>
+        <tr>
+          <td><label for="email">E-mail (один)</label></td>
+          <td><input id="email" type="email"/></td>
+        </tr>
+        <tr>
+          <td><label for="city">Город</label></td>
+          <td>
+            <select id="city">
+              <option value="ozyorsk">Озерск</option>
+              <option value="spb">Санкт-Петербург</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><button>Сохранить</button></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+
+</html>
